@@ -1,14 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import Card from './Card.js';
+// import CardList from './CardList';
+// import {Robots} from './Robots.js';
+import App from './Containers/App.js';
+import 'tachyons'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
+	
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <App />
+  </React.StrictMode>
+  
+  ,document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
